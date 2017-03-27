@@ -28,7 +28,7 @@ with(data, {
     plot(Voltage~Date_time, type="l", 
          ylab="Voltage (volt)", xlab="datetime")
     plot(Sub_metering_1~Date_time, type="l", 
-         ylab="Energy sub metering (kilowatts)", xlab="")
+         ylab="Energy sub metering", xlab="")
     lines(Sub_metering_2~Date_time,col='Red')
     lines(Sub_metering_3~Date_time,col='Blue')
     legend("topright", col=c("black", "red", "blue"), lty=1, lwd=2, bty="n",
